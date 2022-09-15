@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+        border: 1px solid black;
+        max-width: 350px;
+        margin-left: 40%;
+        padding: 10px;
+        }
+        label{
+        font-weight: bolder;
+        margin-bottom: 10px;
+        }
+        input{
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        padding: 20px;
+        }
+        input[type=submit] {
+        background-color: #4CAF50;
+        color: rgb(1, 0, 0);
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        }
+        input[type=submit]:hover {
+        background-color: #45a049;
+        }
+    </style>
+
+<style>
+    table {
+        margin-right: 25%;
+        margin-left: 25%;
+        border-collapse: collapse;
+        width: 50%;
+      }
+        td, th {
+        border: 5px solid rgb(54, 12, 239);
+        text-align: left;
+        padding: 8px;
+        text-align: center;
+      }
+        caption{
+        font-size: 40px;
+      }
+        </style>
+
+</head>
+<body>
+    <form>
+        <p align=center>FORM</p> <BR>
+       Name: <input type ="text" placeholder="name"> <BR>
+        Class: <input type ="number" placeholder="class"> <BR>
+        Roll: <input type ="number" placeholder="roll no."> <BR>
+        Phone: <input type ="number" placeholder="phone no."> <BR>  
+        Email: <input type="email" placeholder="email"> <BR> <BR>
+            Gender: <BR>
+            <label for="Gender"></label> <BR>
+                <input type="radio" name="gender" value="male"><label for="">Male</label>
+                <input type="radio" name="gender" value="female"><label for="">Female</label> <BR> <BR>
+
+             Subject: <BR>
+            <label for="Gender"></label> <BR>
+                 <input type="radio" name="Subject" value="English"><label for="">English</label>
+                <input type="radio" name="Subject" value="Math"><label for="">Math</label> <BR> <BR>
+
+        Points: <BR>
+            <input type ="number" placeholder="points"> <BR>
+        
+                <input type="submit"> <BR> <BR> <BR>
+
+    </form>
+<BR> <BR> <BR>
+    <table border="1">
+        <tr>
+            <p align=center>TABLE</p> <BR>
+            <td rowspan="2">Name</td>
+            <td rowspan="2">Class</td>
+            <td rowspan="2">Roll</td>
+            <td rowspan="2">Phone</td>
+            <td rowspan="2">Email</td>
+            <td rowspan="2">Gender</td>
+            <td colspan="3">Subject</td>
+            <td rowspan="2">Points</td>
+        </tr>
+        
+        <tr>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>English</td>
+        
+        </tr>
+
+        <tr>
+            <td>Rajan Karki</td>
+            <td>10</td>
+            <td>20</td>
+            <td>98-xxxxx</td>
+            <td>jk@gmail.com</td>
+            <td>Male</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+            <td>Rajan Karki</td>
+            <td>10</td>
+            <td>20</td>
+            <td>98-xxxxx</td>
+            <td>jk@gmail.com</td>
+            <td>Male</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>10</td>
+        </tr> 
+        
+        <tr>
+            <td>Binita K.C.</td>
+            <td>12</td>
+            <td>40</td>
+            <td>98-xxxxx</td>
+            <td>jk@gmail.com</td>
+            <td>Female</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+            <td>Binita K.C.</td>
+            <td>12</td>
+            <td>40</td>
+            <td>98-xxxxx</td>
+            <td>jk@gmail.com</td>
+            <td>Female</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+            <td>Rajan Karki</td>
+            <td>10</td>
+            <td>20</td>
+            <td>98-xxxxx</td>
+            <td>jk@gmail.com</td>
+            <td>Male</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+            <td>Binita K.C.</td>
+            <td>12</td>
+            <td>40</td>
+            <td>98-xxxxx</td>
+            <td>jk@gmail.com</td>
+            <td>Female</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>20</td>
+        </tr>
+
+        <td colspan="9">Total</td>
+        <td>70</td>
+
+    </table>
+    
+</body>
+</html>
