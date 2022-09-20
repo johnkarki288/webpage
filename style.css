@@ -1,0 +1,25 @@
+a[target]{
+background-color: violet;
+color:blue;
+padding: 15px;
+text-decoration: none;
+margin: 5px; 
+}
+
+a[target="_blank"]{
+    background-color:black;
+    color:tomato;
+    padding: 15px;
+    text-decoration: none;
+    margin: 5px; 
+}
+h1{
+        font-size: 45px;
+}
+h2{
+        font-size: 39px;
+}
+.main-div{
+        background-color: grey;
+        color:red;
+ }
