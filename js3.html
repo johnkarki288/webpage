@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript switch</h2>
+<p id="demo"></p>
+<script>
+let day;
+switch (new Date().getMonth()) {
+  case 0:
+    day = "jan";
+    break;
+  case 1:
+    day = "feb";
+    break;
+  case 2:
+    day = "march";
+    break;
+  case 3:
+    day = "apr";
+    break;
+  case 4:
+    day = "may"
+    break;
+  case 5:
+    day = "june";
+    break;
+  case  6:
+    day = "july";
+    break;
+   case  7:
+    day = "aug";
+    break;
+   case  8:
+    day = "sep";
+    break;
+   case  9:
+    day = "oct";
+    break;
+   case  10:
+    day = "nov";
+    break;
+   case  11:
+    day = "dec";
+    break;
+}
+document.getElementById("demo").innerHTML = "Today is " + day;
+</script>
+</body>
+</html>
